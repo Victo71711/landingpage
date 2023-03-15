@@ -1,38 +1,37 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Starbucks coffee</title>
-        <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
-        <link href="css/style.css" type="text/css" rel="stylesheet"/>
-    </head>
-        <body>
-            <header>
-                <div class="center">
-                    <div class="logo"><img src="assets/logo.png"/></div><!--Logo-->
-                    <div class="menu">
-                        <a href="#">Home</a>
-                        <a href="#">About</a>
-                        <a href="#">Menu</a>
-                        <a href="#">What's New</a>
-                    </div><!--Menu-->
-                </div><!--center-->
-            </header>
-            <section class="Sobre">
-                <div class="extras">
-                    <img src="assets/img1.png"/>
-                    <div class="social-media">
-                        <a href=""><img src="assets/facebook.png"/></a>
-                        <a href=""><img src="assets/instagram.png"/></a>
-                        <a href=""><img src="assets/twitter.png"/></a>
-                    </div><!--socialmedia-->
-                </div><!--extras-->
-                <div class="center">
-                    <div class="texto-sobre">
-                        <h1>It's not just Coffee<br/>It's <span style="color: #017143;">StarBucks</span></h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tempor est vel vulputate hendrerit. Cras pharetra mattis nulla, at eleifend orci sagittis a. Nulla tristique tincidunt magna consequat luctus. Pellentesque id lectus at dolor rutrum accumsan. Donec pharetra at lorem ac porttitor. Nulla et eleifend turpis. Phasellus nisi ligula, euismod sit amet varius ut, tincidunt vel enim.</p>
-                        <button>Learn More</button>
-                    </div>
-                </div>
-            </section>
-        </body>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link href="styles.css" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="calculator-grid">
+        <div class="output">
+            <div data-previous-operand class="previous-operand"></div>
+            <div data-current-operand class="current-operand"></div>
+        </div>
+        <button data-all-clear class="span-two">AC</button>
+        <button data-delete>DEL</button>
+        <button data-operation>÷</button>
+        <button data-number>1</button>
+        <button data-number>2</button>
+        <button data-number>3</button>
+        <button data-operation>*</button>
+        <button data-number>4</button>
+        <button data-number>5</button>
+        <button data-number>6</button>
+        <button data-operation>+</button>
+        <button data-number>7</button>
+        <button data-number>8</button>
+        <button data-number>9</button>
+        <button data-operation>-</button>
+        <button data-number>.</button>
+        <button data-number>0</button>
+        <button data-equals class="span-two">=</button>
+    </div>
+</body>
 </html>
